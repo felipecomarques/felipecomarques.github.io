@@ -42,6 +42,10 @@
       "name": "Project Kiwi",
       "description": "Jogo educacional multiplayer para o ensino de inglês, projetado para tornar o aprendizado mais colaborativo e interativo. O projeto investiga o impacto do jogo síncrono multiplayer em comparação ao modo individual na aquisição de idioma e na motivação dos alunos."
     },
+    "weather": {
+      "name": "Weather Dashboard",
+      "description": "Aplicação full stack que integra coleta de dados climáticos em Python, processamento assíncrono com RabbitMQ e um worker em Go, armazenamento e geração de insights em uma API NestJS com MongoDB, além de um dashboard em React que exibe informações meteorológicas reais."
+    },
     "vet": {
       "name": "API Veterinária",
       "description": "Interface CRUD que simula um sistema de clínica veterinária. Permite manejar funcionários e pets, possuindo um sistema de autentificação com criptografia. Utiliza tecnologias modernas, permitindo a segurança da aplicação através de testes de software."

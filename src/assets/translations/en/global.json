@@ -42,6 +42,10 @@
       "name": "Project Kiwi",
       "description": "Multiplayer educational game for English learning, designed to make the process more collaborative and interactive. It examines the impact of synchronous multiplayer gameplay versus single-player mode on students’ language acquisition and motivation."
     },
+    "weather": {
+      "name": "Weather Dashboard",
+      "description": "Full stack application that collects weather data using Python, processes messages through RabbitMQ with a Go worker, stores and analyzes information in a NestJS API with MongoDB, and presents a React dashboard that displays real weather metrics"
+    },
     "vet": {
       "name": "Veterinary API",
       "description": "CRUD interface that simulates a veterinary clinic system. It allows managing employees and pets, featuring an authentication system with encryption. It employs modern technologies, enabling application security through software testing."

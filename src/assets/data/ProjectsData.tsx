@@ -6,6 +6,8 @@ import {
   BiLogoReact,
   BiLogoTailwindCss,
   BiLogoPostgresql,
+  BiLogoPython,
+  BiLogoGoLang,
 } from "react-icons/bi";
 import {
   SiDotnet,
@@ -46,6 +48,19 @@ const ProjectsData = () => {
       title: t("projects.kiwi.name"),
       icons: [<SiGodotengine className="h-7 w-7" />],
       text: t("projects.kiwi.description"),
+    },
+    {
+      id: nanoid(),
+      img: "https://cdn.jsdelivr.net/gh/helpmeagain/helpmeagain.github.io@main/src/assets/images/weather.png",
+      github: "https://github.com/helpmeagain/desafio-gdash-2025-02",
+      title: t("projects.weather.name"),
+      icons: [
+        <BiLogoTypescript className="h-8 w-8" />,
+        <BiLogoMongodb className="h-8 w-8" />,
+        <BiLogoPython className="h-8 w-8" />,
+        <BiLogoGoLang className="h-8 w-8" />,
+      ],
+      text: t("projects.weather.description"),
     },
     {
       id: nanoid(),
